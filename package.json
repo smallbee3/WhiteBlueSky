@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/server.ts",
-    "lint": "eslint src/**/**/*.ts && eslint tests/**/**/*.ts",
+    "lint": "eslint --fix src/**/**/*.ts && eslint --fix tests/**/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate:prisma": "prisma generate"
   },
@@ -43,6 +43,7 @@
     "@typescript-eslint/parser": "^2.30.0",
     "dotenv": "^8.2.0",
     "jest": "^25.5.3",
+    "prettier": "^2.0.5",
     "ts-jest": "^25.4.0",
     "ts-node": "^8.9.1",
     "ts-node-dev": "^1.0.0-pre.44",
