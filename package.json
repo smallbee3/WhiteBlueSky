@@ -1,0 +1,30 @@
+{
+  "name": "whitebluesky-server",
+  "version": "1.0.0",
+  "description": "WhiteBlueSky Server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallbee3/WhiteBlueSky.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:prisma": "prisma generate"
+  },
+  "dependencies": {
+    "@nexus/schema": "^0.13.1",
+    "@prisma/client": "^2.0.0-beta.4",
+    "apollo-server": "^2.12.0",
+    "graphql": "^15.0.0",
+    "graphql-subscriptions": "^1.1.0",
+    "nexus-prisma": "^0.12.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.4",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }  
+}
